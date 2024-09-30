@@ -2,6 +2,13 @@
 Changelog for package gz_gui_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.0 (2024-09-30)
+------------------
+* Bump version to 9.0.0 (`#3 <https://github.com/gazebo-release/gz_gui_vendor/issues/3>`_)
+* Apply prerelease suffix (`#2 <https://github.com/gazebo-release/gz_gui_vendor/issues/2>`_)
+* Upgrade to Ionic
+* Contributors: Addisu Z. Taddese, Ian Chen
+
 0.1.1 (2024-07-15)
 ------------------
 * Update vendored package version to 8.3.0
