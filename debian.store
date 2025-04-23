@@ -1,1 +1,1 @@
-{"base": "a562013", "parent": "debian/rolling/gz_gui_vendor", "previous": "b0156cf", "trim": "", "trimbase": ""}
+{"base": "6e8b5a6f31c2", "parent": "debian/kilted/gz_gui_vendor", "previous": "ccae49c2eaee", "trim": "", "trimbase": ""}
