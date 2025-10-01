@@ -1,3 +1,26 @@
+## gz_gui_vendor (rolling) - 0.3.1-1
+
+The packages in the `gz_gui_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --ros-distro rolling --track rolling gz_gui_vendor` on `Wed, 01 Oct 2025 15:55:56 -0000`
+
+The `gz_gui_vendor` package was released.
+
+Version of package(s) in repository `gz_gui_vendor`:
+
+- upstream repository: https://github.com/gazebo-release/gz_gui_vendor.git
+- release repository: https://github.com/ros2-gbp/gz_gui_vendor-release.git
+- rosdistro version: `0.3.0-1`
+- old version: `0.3.0-1`
+- new version: `0.3.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## gz_gui_vendor (rolling) - 0.3.0-1
 
 The packages in the `gz_gui_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling gz_gui_vendor` on `Mon, 08 Sep 2025 23:34:05 -0000`
