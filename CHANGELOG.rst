@@ -2,6 +2,14 @@
 Changelog for package gz_gui_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.1 (2025-10-01)
+------------------
+* Merge pull request `#8 <https://github.com/gazebo-release/gz_gui_vendor/issues/8>`_ from gazebo-release/releasepy/rolling/10.0.0
+  Bump version to 10.0.0
+* Bump version to 10.0.0
+* Add dsv for PYTHONPATH for Jetty packages (`#7 <https://github.com/gazebo-release/gz_gui_vendor/issues/7>`_)
+* Contributors: Carlos Agüero, Jose Luis Rivero, Steve Peters
+
 0.3.0 (2025-09-08)
 ------------------
 * Jetty support, 10.0.0-pre1 (`#6 <https://github.com/gazebo-release/gz_gui_vendor/issues/6>`_)
