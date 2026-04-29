@@ -1,0 +1,12 @@
+Source: ros-lyrical-gz-gui-vendor
+Section: misc
+Priority: optional
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), cmake, libprotobuf-dev, libprotoc-dev, libqt6svg6, libtinyxml2-dev, protobuf-compiler, qml6-module-qt-labs-folderlistmodel, qml6-module-qt-labs-platform, qml6-module-qt-labs-settings, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcharts, qml6-module-qtcore, qml6-module-qtpositioning, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-5compat-dev, qt6-base-dev, qt6-base-private-dev, qt6-declarative-dev, qt6-declarative-private-dev, ros-lyrical-ament-cmake-copyright <!nocheck>, ros-lyrical-ament-cmake-core, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-test, ros-lyrical-ament-cmake-vendor-package, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-gz-cmake-vendor, ros-lyrical-gz-common-vendor, ros-lyrical-gz-math-vendor, ros-lyrical-gz-msgs-vendor, ros-lyrical-gz-plugin-vendor, ros-lyrical-gz-rendering-vendor, ros-lyrical-gz-tools-vendor, ros-lyrical-gz-transport-vendor, ros-lyrical-gz-utils-vendor, xvfb <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://github.com/gazebosim/gz-rendering
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-gz-gui-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libprotobuf-dev, libprotoc-dev, libqt6svg6, libtinyxml2-dev, protobuf-compiler, qml6-module-qt-labs-folderlistmodel, qml6-module-qt-labs-platform, qml6-module-qt-labs-settings, qml6-module-qt5compat-graphicaleffects, qml6-module-qtcharts, qml6-module-qtcore, qml6-module-qtpositioning, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, qt6-5compat-dev, qt6-base-dev, qt6-base-private-dev, qt6-declarative-dev, qt6-declarative-private-dev, ros-lyrical-gz-cmake-vendor, ros-lyrical-gz-common-vendor, ros-lyrical-gz-math-vendor, ros-lyrical-gz-msgs-vendor, ros-lyrical-gz-plugin-vendor, ros-lyrical-gz-rendering-vendor, ros-lyrical-gz-tools-vendor, ros-lyrical-gz-transport-vendor, ros-lyrical-gz-utils-vendor, ros-lyrical-ros-workspace
+Description: Vendor package for: gz-gui 10.0.0 Gazebo GUI : Graphical interfaces for robotics applications
