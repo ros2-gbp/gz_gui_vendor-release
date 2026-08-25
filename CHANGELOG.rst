@@ -2,6 +2,11 @@
 Changelog for package gz_gui_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.2 (2026-08-25)
+------------------
+* Bump version to 10.1.0 (`#11 <https://github.com/gazebo-release/gz_gui_vendor/issues/11>`_)
+* Contributors: Addisu Z. Taddese
+
 0.3.1 (2025-10-01)
 ------------------
 * Merge pull request `#8 <https://github.com/gazebo-release/gz_gui_vendor/issues/8>`_ from gazebo-release/releasepy/rolling/10.0.0
