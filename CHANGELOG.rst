@@ -2,10 +2,13 @@
 Changelog for package gz_gui_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.2 (2026-08-25)
+0.4.1 (2026-08-25)
 ------------------
-* Bump version to 10.1.0 (`#11 <https://github.com/gazebo-release/gz_gui_vendor/issues/11>`_)
+* Upgrade to Rotary prerelease (`#12 <https://github.com/gazebo-release/gz_gui_vendor/issues/12>`_)
 * Contributors: Addisu Z. Taddese
+
+0.4.0 (2026-05-14)
+------------------
 
 0.3.1 (2025-10-01)
 ------------------
