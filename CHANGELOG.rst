@@ -2,6 +2,11 @@
 Changelog for package gz_gui_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.3 (2026-08-31)
+------------------
+* Enable Python bindings (`#13 <https://github.com/gazebo-release/gz_gui_vendor/issues/13>`_)
+* Contributors: Addisu Z. Taddese
+
 0.2.2 (2025-10-10)
 ------------------
 * Merge pull request `#9 <https://github.com/gazebo-release/gz_gui_vendor/issues/9>`_ from gazebo-release/releasepy/kilted/9.0.2
