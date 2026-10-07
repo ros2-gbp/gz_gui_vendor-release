@@ -2,26 +2,35 @@
 Changelog for package gz_gui_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.2.4 (2026-09-04)
+0.4.2 (2026-10-06)
 ------------------
-* Revert "Enable Python bindings (`#13 <https://github.com/gazebo-release/gz_gui_vendor/issues/13>`_)" (`#15 <https://github.com/gazebo-release/gz_gui_vendor/issues/15>`_)
-  * Revert "Enable Python bindings (`#13 <https://github.com/gazebo-release/gz_gui_vendor/issues/13>`_)"
-  This reverts commit 57ee2f8368907282b876d8c7dc630548be1ce415.
-  * Rerun gz_vendor
+* Bump version to 11.0.0~pre2 (`#16 <https://github.com/gazebo-release/gz_gui_vendor/issues/16>`_)
+* Contributors: Addisu Z. Taddese
+
+0.4.1 (2026-08-25)
+------------------
+* Upgrade to Rotary prerelease (`#12 <https://github.com/gazebo-release/gz_gui_vendor/issues/12>`_)
+* Contributors: Addisu Z. Taddese
+
+0.4.0 (2026-05-14)
+------------------
+
+0.3.1 (2025-10-01)
+------------------
+* Merge pull request `#8 <https://github.com/gazebo-release/gz_gui_vendor/issues/8>`_ from gazebo-release/releasepy/rolling/10.0.0
+  Bump version to 10.0.0
+* Bump version to 10.0.0
+* Add dsv for PYTHONPATH for Jetty packages (`#7 <https://github.com/gazebo-release/gz_gui_vendor/issues/7>`_)
+* Contributors: Carlos Agüero, Jose Luis Rivero, Steve Peters
+
+0.3.0 (2025-09-08)
+------------------
+* Jetty support, 10.0.0-pre1 (`#6 <https://github.com/gazebo-release/gz_gui_vendor/issues/6>`_)
+  * Jetty support: 10.0.0-pre1
+  * Update to pre2, update CMakeLists based on upstream fix
   ---------
-* Contributors: Addisu Z. Taddese
-
-0.2.3 (2026-08-31)
-------------------
-* Enable Python bindings (`#13 <https://github.com/gazebo-release/gz_gui_vendor/issues/13>`_)
-* Contributors: Addisu Z. Taddese
-
-0.2.2 (2025-10-10)
-------------------
-* Merge pull request `#9 <https://github.com/gazebo-release/gz_gui_vendor/issues/9>`_ from gazebo-release/releasepy/kilted/9.0.2
-  Bump version to 9.0.2
-* Bump version to 9.0.2
-* Contributors: Jose Luis Rivero
+  Co-authored-by: Addisu Z. Taddese <addisu@openrobotics.org>
+* Contributors: Steve Peters
 
 0.2.1 (2025-02-19)
 ------------------
