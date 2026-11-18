@@ -4,8 +4,8 @@ project(gz_gui_vendor)
 
 # Project-specific settings
 set(LIB_VER_MAJOR 9)
-set(LIB_VER_MINOR 0)
-set(LIB_VER_PATCH 2)
+set(LIB_VER_MINOR 1)
+set(LIB_VER_PATCH 0)
 set(LIB_VER_SUFFIX "")
 
 # Derived variables
