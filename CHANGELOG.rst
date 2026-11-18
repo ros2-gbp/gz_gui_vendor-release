@@ -2,6 +2,11 @@
 Changelog for package gz_gui_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.5 (2026-11-18)
+------------------
+* Bump version to 9.1.0 (`#18 <https://github.com/gazebo-release/gz_gui_vendor/issues/18>`_)
+* Contributors: Carlos Agüero
+
 0.2.4 (2026-09-04)
 ------------------
 * Revert "Enable Python bindings (`#13 <https://github.com/gazebo-release/gz_gui_vendor/issues/13>`_)" (`#15 <https://github.com/gazebo-release/gz_gui_vendor/issues/15>`_)
