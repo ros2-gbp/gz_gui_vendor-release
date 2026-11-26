@@ -4,8 +4,8 @@ project(gz_gui_vendor)
 
 # Project-specific settings
 set(LIB_VER_MAJOR 10)
-set(LIB_VER_MINOR 1)
-set(LIB_VER_PATCH 1)
+set(LIB_VER_MINOR 2)
+set(LIB_VER_PATCH 0)
 set(LIB_VER_SUFFIX "")
 
 # Derived variables
@@ -86,12 +86,9 @@ ament_export_dependencies(
   gz_utils_vendor
 )
 
-if(NOT ${${LIB_NAME_FULL}_FOUND})
+if(FORCE_BUILD_VENDOR_PKG OR AMENT_VENDOR_POLICY STREQUAL "FORCE_BUILD_VENDOR" OR NOT ${${LIB_NAME_FULL}_FOUND})
   ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/${PROJECT_NAME}.dsv.in")
-  # Create a dummy .sh file needed for ament_package to source the .dsv file.
-  # See https://github.com/ament/ament_package/issues/145
-  file(WRITE ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}.sh "# Dummy .sh file needed for .dsv file to be sourced.")
-  ament_environment_hooks("${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}.sh")
+  ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/${PROJECT_NAME}.sh.in")
 endif()
 
 ament_package()
